@@ -1,0 +1,24 @@
+.regular {
+  position: relative;
+  padding: 0 40px;
+  &::before {
+    content: "\201C";
+    position: absolute;
+    font-weight: bold;
+    font-size: 4em;
+    color: #9a9a9a;
+    top: -30px;
+    left: 0px;
+    font-family: Georgia, Times, serif;
+  }
+  &::after {
+    content: "\201D";
+    position: absolute;
+    font-weight: bold;
+    font-size: 4em;
+    color: #9a9a9a;
+    bottom: -50px;
+    right: 0px;
+    font-family: Georgia, Times, serif;
+  }
+}
