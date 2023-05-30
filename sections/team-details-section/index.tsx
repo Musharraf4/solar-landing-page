@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import { UserCard } from "../../components/user-card";
 import dottedSquare from "../../public/assets/dotted-square.svg";
 import Image from "next/image";
+import { SectionHeading } from "@/components/section-heading";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,7 +22,7 @@ export const TeamDetails = (props: any) => {
           style={{ left: 50, top: 30 }}
         />
         <div className="text-center container">
-          <span className="fw-bold underline py-3 h4">CHI SIAMO</span>
+          <SectionHeading heading={"CHI SIAMO"} />
           <p className="mt-5 sub-heading">
             Solar Innovatio è una PMI innovativa italiana specializzata nella progettazione e
             realizzazione di sistemi fotovoltaici intelligenti. Solar Innovatio unisce alla

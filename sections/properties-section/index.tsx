@@ -1,28 +1,19 @@
 import React from "react";
 import "./index.css";
-import Image from "next/image";
+import { FeaturesDetailCard } from "@/components/features-detail-card";
+import { SectionHeading } from "@/components/section-heading";
 
 export const PropertiesSection = (props: any) => {
   const { heading, data } = props;
   return (
-    <div className=" main-img border">
-      <div className="text-center">
-        <span className="fw-600 primary-heading underline py-3">{heading}</span>
-      </div>
-      <div className="row g-4 py-5 row-cols-1 row-cols-lg-3 mx-2">
-        {data?.map((item:any)=>{
-          return (
-        <div className="col d-flex align-items-start">
-          <div className=" me-3 icon-border p-2 rounded-5">
-            {/* <svg className="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg> */}
-            <Image src={item?.image} alt="efficiency" width={30} />
-          </div>
-          <div>
-            <p className="heading-1">{item?.heading}</p>
-            <p className="sub-heading">{item?.description}</p>
-          </div>
-        </div>)
-        })}
+    <div className="container-fluid main-img">
+      <div className="container py-3">
+      <SectionHeading heading={heading}/>
+        <div className="row mx-2 mt-5">
+          {data?.map((item: any) => {
+            return <FeaturesDetailCard item={item} />;
+          })}
+        </div>
       </div>
     </div>
   );

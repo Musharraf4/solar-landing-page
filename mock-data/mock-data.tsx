@@ -9,6 +9,10 @@ import electric from "../public/assets/icons/electric.svg";
 import resistent from "../public/assets/icons/resistent.svg";
 import meter from "../public/assets/icons/meter.svg";
 
+import thunder from "../public/assets/icons/thunder.svg";
+import car from "../public/assets/icons/car.svg";
+import energy from "../public/assets/icons/energy.svg";
+
 export const TeamsData = [
   {
     userImage: user3,
@@ -62,4 +66,22 @@ export const propertiesSectionData=[
     heading:'Resistente',
     description:`Il sistema è realizzato con un rivestimento protettivo, impermeabile, isolante e resistente a fenomeni atmosferici aggressivi, all’abrasione, urti e graffi.`
   },
+]
+
+export const highlightsData=[
+  {
+  icon:energy,
+  heading:'Risparmio Energetico',
+  description:`Risparmia da un minimo del 60% sulla bolletta fino all'indipendenza energetica anche grazie alla schermatura solare che consente una riduzione fino al 95% dei raggi UV e quindi un minor utilizzo del condizionatore.`
+},
+  {
+  icon:car,
+  heading:'Mobilità Elettrica',
+  description:`L'unica soluzione che rende l’utilizzo di un’auto elettrica veramente economico.  L’efficienza dei pannelli e le batterie di accumulo garantiscono fino a 29.000 chilometri annui a emissioni zero.`
+},
+  {
+  icon:thunder,
+  heading:'Comunità Energetica',
+  description:`Dal concetto di condominio al concetto di comunità energetica: Si.Re. è il sistema che rende possibile realizzare una Comunità Energetica Rinnovabile senza acquisto di energia elettrica dalla rete.`
+},
 ]

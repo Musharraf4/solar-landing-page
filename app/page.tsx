@@ -1,14 +1,16 @@
 import { TeamDetails } from "@/sections/team-details-section";
-import { Navbar } from "../components/navbar";
 import { FeatureSection } from "@/sections/feature-section";
 import { PropertiesSection } from "@/sections/properties-section";
 import { QuotesSection } from "@/sections/quotes-section";
-import { TeamsData, propertiesSectionData } from "@/mock-data/mock-data";
+import { TeamsData, highlightsData, propertiesSectionData } from "@/mock-data/mock-data";
+import { Header } from "@/sections/header-section";
+import { HighlightsSection } from "@/sections/highlights-section";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
+      <Header/>
+      {/* <Navbar /> */}
       <TeamDetails data={TeamsData} />
       <section className="my-5 container">
         <QuotesSection />
@@ -17,11 +19,14 @@ export default function Home() {
       <section className="position-relative">
         <FeatureSection />
       </section>
-      <section className="container">
+      <section>
         <PropertiesSection
           heading={"Connesso, Intelligente, Resistente"}
           data={propertiesSectionData}
         />
+      </section>
+      <section>
+        <HighlightsSection heading={'Perchè S.I.R.E.'} data={highlightsData}/>
       </section>
     </main>
   );
