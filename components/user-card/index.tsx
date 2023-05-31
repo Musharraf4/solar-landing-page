@@ -3,7 +3,10 @@ import Image from "next/image";
 export const UserCard = (props: any) => {
   const { userImage, userName, userData } = props;
   return (
-    <div className="card border-0 col-lg-4 col-md-6 col-sm-12 text-center position-relative ">
+    <div
+      className="card border-0 col-lg-4 col-md-6 col-sm-12 text-center position-relative "
+      key={userName}
+    >
       <Image
         src={userImage}
         alt={`user-${userImage}`}
