@@ -4,14 +4,21 @@
   --secondary-color: #666666;
   --primary-text-color: #363636;
   --light-background-color: #f8f8f8;
+  --nav-text-color:#8A8888
 }
 
 /* colors */
 .primary-text-color {
   color: var(--primary-text-color);
 }
+.nav-text-color{
+  color:var(--nav-text-color)
+}
 .secondary-text-color {
   color: var(--secondary-color);
+}
+.bg-primary-color{
+  background-color:var(--primary-color) ;
 }
 .heading-text-color {
   color: var(--primary-color);

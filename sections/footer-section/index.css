@@ -1,0 +1,14 @@
+.bg-green{
+background-image: url("../../public/assets/green-bg.svg");
+width: 100%;
+background-repeat: no-repeat;
+/* height: 130px; */
+}
+.bg-footer{
+  background-image: url("../../public/assets/bg-footer.svg");
+  width: 100%;
+  background-repeat:repeat;
+  background-color: grey;
+  /* height: 130px; */
+
+}

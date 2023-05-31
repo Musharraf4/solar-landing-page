@@ -85,3 +85,41 @@ export const highlightsData=[
   description:`Dal concetto di condominio al concetto di comunità energetica: Si.Re. è il sistema che rende possibile realizzare una Comunità Energetica Rinnovabile senza acquisto di energia elettrica dalla rete.`
 },
 ]
+
+export const accordianData=[
+  {
+  key:'0',
+  heading:'Dove si monta S.I.R.E.?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'1',
+  heading:'Chi monta l’impianto S.I.R.E.?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'2',
+  heading:'Quanto tempo impiega l’installazione?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'3',
+  heading:'E’ necessario richiedere autorizzazioni al condominio?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'4',
+  heading:'E’ necessario predisporre pratiche per il GSE? ',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'5',
+  heading:'L’impianto è garantito?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+  {
+  key:'6',
+  heading:'E’ possibile usufruire di bonus fiscali?',
+  body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
+},
+]

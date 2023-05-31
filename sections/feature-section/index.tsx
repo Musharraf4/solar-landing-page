@@ -22,7 +22,7 @@ export const FeatureSection = () => {
       />
       <div className="container ">
         <div className="row">
-          <div className="col-lg-6 position-relative py-5">
+          <div className="col-lg-6 position-relative py-5 d-sm-block d-none">
             <div>
               <Image className="rounded-2" src={satellite} alt="" />
             </div>

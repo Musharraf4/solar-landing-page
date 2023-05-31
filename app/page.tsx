@@ -5,11 +5,16 @@ import { QuotesSection } from "@/sections/quotes-section";
 import { TeamsData, highlightsData, propertiesSectionData } from "@/mock-data/mock-data";
 import { Header } from "@/sections/header-section";
 import { HighlightsSection } from "@/sections/highlights-section";
+import { ChoosePackageSection } from "@/sections/choose-package-section";
+import { QuestionSection } from "@/sections/question-section";
+import { ContactSection } from "@/sections/contact-section";
+import { FooterSection } from "@/sections/footer-section";
+
 
 export default function Home() {
   return (
     <main>
-      <Header/>
+      <Header />
       {/* <Navbar /> */}
       <TeamDetails data={TeamsData} />
       <section className="my-5 container">
@@ -26,8 +31,23 @@ export default function Home() {
         />
       </section>
       <section>
-        <HighlightsSection heading={'Perchè S.I.R.E.'} data={highlightsData}/>
+        <HighlightsSection heading={"Perchè S.I.R.E."} data={highlightsData} />
       </section>
-    </main>
+      <section >
+        <ChoosePackageSection />
+      </section>
+
+      <section >
+        <QuestionSection />
+      </section>
+
+      <section >
+        <ContactSection/>
+      </section>
+
+      <footer >
+        <FooterSection/>
+      </footer>
+      </main>
   );
 }
