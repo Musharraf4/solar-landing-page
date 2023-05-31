@@ -14,7 +14,7 @@ export const FooterSection = () => {
   return (
     <>
       <div className="container-fluid bg-green text-white">
-        <div className="container">
+        <div className="container py-3">
           <div className="row align-items-center">
             <div className="col-md-6 col-sm-12">
               <p className="sub-heading-3 fw-600 pt-3">Subscribe for Newsletter</p>

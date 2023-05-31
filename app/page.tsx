@@ -14,10 +14,14 @@ import { FooterSection } from "@/sections/footer-section";
 export default function Home() {
   return (
     <main>
+      <header>
+
       <Header />
-      {/* <Navbar /> */}
+      </header>
+     <section>
       <TeamDetails data={TeamsData} />
-      <section className="my-5 container">
+     </section>
+      <section >
         <QuotesSection />
       </section>
 

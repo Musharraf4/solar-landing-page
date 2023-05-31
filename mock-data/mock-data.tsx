@@ -123,3 +123,5 @@ export const accordianData=[
   body:`S.I.R.E. può essere montato come una tenda sul balcone o come pensilina sulla vetrina, porta, finestra `
 },
 ]
+
+export const navList=['Home','Chi Siamo','S.I.R.E','SIRE Features','Why SIRE?','SIRE Product','How it Works?']

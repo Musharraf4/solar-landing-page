@@ -1,20 +1,14 @@
 import React from "react";
-import { Poppins } from "next/font/google";
 import { UserCard } from "../../components/user-card";
 import dottedSquare from "../../public/assets/dotted-square.svg";
 import Image from "next/image";
 import { SectionHeading } from "@/components/section-heading";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: "400",
-});
-
 export const TeamDetails = (props: any) => {
   const { data } = props;
   return (
-    <div className={`${poppins.className}`}>
-      <section className="container-fluid position-relative">
+    <>
+      <div className="container-fluid position-relative mt-5">
         <Image
           src={dottedSquare}
           alt="square"
@@ -31,10 +25,10 @@ export const TeamDetails = (props: any) => {
             energia rinnovabile.
           </p>
         </div>
-      </section>
+      </div>
 
       <section className="container">
-        <div className="mx-sm-0 mx-lg-4 row container" style={{ marginTop: "150px" }}>
+        <div className=" row container g-3 justify-content-center mt-5">
           {data?.map((item: any) => {
             return (
               <UserCard
@@ -46,6 +40,6 @@ export const TeamDetails = (props: any) => {
           })}
         </div>
       </section>
-    </div>
+    </>
   );
 };

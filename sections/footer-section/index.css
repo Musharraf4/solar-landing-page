@@ -2,6 +2,7 @@
 background-image: url("../../public/assets/green-bg.svg");
 width: 100%;
 background-repeat: no-repeat;
+background-size: cover;
 /* height: 130px; */
 }
 .bg-footer{

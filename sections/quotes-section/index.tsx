@@ -3,7 +3,7 @@ import "./index.css";
 
 export const QuotesSection = () => {
   return (
-    <>
+    <div className="my-5 container">
       <div className="regular font-italic heading-1 fw-bold">
         <i>
           Non sviluppiamo pannelli fotovoltaici. Il pannello è solo una componente di una soluzione
@@ -12,6 +12,6 @@ export const QuotesSection = () => {
         </i>
       </div>
       <p className="primary heading-text-color text-center mt-3 fw-500">-- Cristian Testoni --</p>
-    </>
+    </div>
   );
 };

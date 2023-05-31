@@ -2,7 +2,7 @@ import './index.css';
 
 export const MainImage = () => {
   return (
-    <div className='main-image image-fluid position-relative'>
+    <div className='main-image  position-relative bg-light' >
       <div className='position-absolute top-50 text-center' style={{left:'50%',transform: 'translate(-50%, -50%)'}}>
 
       <b className='main-heading text-white'>Il tuo accesso al sole</b>
