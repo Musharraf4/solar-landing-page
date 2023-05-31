@@ -8,7 +8,7 @@ export const MainImage = () => {
       <b className='main-heading text-white'>Il tuo accesso al sole</b>
       <br/>
 
-      <span className=' text-white sub-heading-3'>Sistemi fotovoltaici intelligenti ad uso residenziale, anche in assenza di tetto. La tua fonte d'energia, gratuita e sostenibile</span>
+      <span className=' text-white sub-heading-3'>{`Sistemi fotovoltaici intelligenti ad uso residenziale, anche in assenza di tetto. La tua fonte d'energia, gratuita e sostenibile`}</span>
      
       </div>
     </div>
